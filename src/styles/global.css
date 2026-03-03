@@ -1,3 +1,5 @@
+
+
 @import "tailwindcss";
 @import "../../generated/webflow.css";
 @import "tw-animate-css";
@@ -48,9 +50,9 @@
 }
 
 :root {
-  --body-font: var(--_apps---typography--body-font);
-  --heading-font: var(--_apps---typography--heading-font);
-  --button-font: var(--_apps---typography--button-font);
+  --body-font: var(--_apps---typography--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: var(--_apps---typography--heading-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --button-font: var(--_apps---typography--button-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --radius: var(--_apps---sizes--radius);
   --background: var(--_apps---colors--background);
   --foreground: var(--_apps---colors--foreground);
@@ -90,9 +92,9 @@
 }
 
 .dark {
-  --body-font: var(--_apps---typography--body-font);
-  --heading-font: var(--_apps---typography--heading-font);
-  --button-font: var(--_apps---typography--button-font);
+  --body-font: var(--_apps---typography--body-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: var(--_apps---typography--heading-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --button-font: var(--_apps---typography--button-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --radius: var(--_apps---sizes--radius);
   --background: var(--_apps---colors--background-dark);
   --foreground: var(--_apps---colors--foreground-dark);
@@ -202,3 +204,4 @@
   background-color: var(--primary) !important;
   opacity: 0.9;
 }
+
